@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.suo
+\.vs
+\bin
+\obj
+*.csproj.user
+*.user
+\publish
+# On ignore ce fichier sinon il sera vu comme modifié à chaque fois qu'on chagera de client (car le fond de carte est différent)
+/src/Neptune.AC.Mobile.Api/Files/MbTiles/carte.zip
